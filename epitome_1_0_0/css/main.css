@@ -33,7 +33,7 @@
  *  # intro 
  *  # about
  *    ## timeline
- *  # services
+ *  # skills
  *  # CTA
  *  # works
  *  # testimonials
@@ -2501,21 +2501,21 @@ input::-moz-focus-inner {
 
 
 /* ===================================================================
- * # services
+ * # skills
  *
  * ------------------------------------------------------------------- */
-.s-services {
+.s-skills {
   padding-top: 19.2rem;
   padding-bottom: 16rem;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/services-bg.jpg);
+  background-image: url(../images/skills-bg.jpg);
   color: rgba(255, 255, 255, 0.7);
   position: relative;
 }
 
-.s-services .shadow-overlay {
+.s-skills .shadow-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -2525,7 +2525,7 @@ input::-moz-focus-inner {
   background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, black 80%);
 }
 
-.s-services::before {
+.s-skills::before {
   content: "";
   position: absolute;
   top: 0;
@@ -2536,40 +2536,40 @@ input::-moz-focus-inner {
   opacity: .85;
 }
 
-.s-services h4 {
+.s-skills h4 {
   font-weight: 400;
   color: #ffffff;
 }
 
-.s-services a {
+.s-skills a {
   color: #cf1767;
 }
 
-.s-services a:hover,
-.s-services a:focus,
-.s-services a:active {
+.s-skills a:hover,
+.s-skills a:focus,
+.s-skills a:active {
   color: #ffffff;
 }
 
-.services-list {
+.skills-list {
   max-width: 1240px;
   margin-top: 8.8rem;
   counter-reset: ctr;
   position: relative;
 }
 
-.services-list .item-service {
+.skills-list .item-skill {
   margin-bottom: 2.4rem;
   padding: 0 30px;
   min-height: 44.8rem;
 }
 
-.services-list .item-service__content {
+.skills-list .item-skill__content {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 3.6rem;
 }
 
-.services-list .item-service__content::before {
+.skills-list .item-skill__content::before {
   display: block;
   content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
@@ -2583,65 +2583,65 @@ input::-moz-focus-inner {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * services
+ * skills
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1400px) {
-  .services-list .item-service {
+  .skills-list .item-skill {
     padding: 0 20px;
   }
 
-  .services-list .item-service__content::before {
+  .skills-list .item-skill__content::before {
     font-size: 7.2rem;
   }
 
 }
 
 @media screen and (max-width:1200px) {
-  .services-list {
+  .skills-list {
     max-width: 900px;
   }
 
-  .services-list .item-service__content::before {
+  .skills-list .item-skill__content::before {
     font-size: 6.8rem;
   }
 
 }
 
 @media screen and (max-width:800px) {
-  .s-services {
+  .s-skills {
     padding-top: 16rem;
     padding-bottom: 16rem;
   }
 
-  .services-list {
+  .skills-list {
     max-width: 600px;
     margin-top: 8rem;
   }
 
-  .services-list .item-service {
+  .skills-list .item-skill {
     padding: 0 16px;
     min-height: 0;
   }
 
-  .services-list .item-service__content::before {
+  .skills-list .item-skill__content::before {
     font-size: 5.4rem;
   }
 
 }
 
 @media screen and (max-width:600px) {
-  .services-list .item-service {
+  .skills-list .item-skill {
     padding: 0 10px;
   }
 
 }
 
 @media screen and (max-width:400px) {
-  .services-list .item-service {
+  .skills-list .item-skill {
     padding: 0;
   }
 
-  .services-list .item-service__content::before {
+  .skills-list .item-skill__content::before {
     font-size: 4.8rem;
   }
 
