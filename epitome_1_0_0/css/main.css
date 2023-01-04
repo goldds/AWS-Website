@@ -35,7 +35,7 @@
  *    ## timeline
  *  # skills
  *  # CTA
- *  # works
+ *  # projects
  *  # testimonials
  *  # contact
  *  # footer
@@ -2270,7 +2270,7 @@ input::-moz-focus-inner {
   top: 50%;
 }
 
-.timeline__icon--work {
+.timeline__icon--project {
   background-image: url(../images/icons/icon-briefcase.svg);
 }
 
@@ -2727,10 +2727,10 @@ input::-moz-focus-inner {
 
 
 /* ===================================================================
- * # works
+ * # projects
  *
  * ------------------------------------------------------------------- */
-.s-works {
+.s-projects {
   padding-top: 19.2rem;
   padding-bottom: 16rem;
   background-color: #ffffff;
@@ -2888,7 +2888,7 @@ input::-moz-focus-inner {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * works
+ * projects
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1200px) {
   .masonry__brick {
@@ -2942,7 +2942,7 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:800px) {
-  .s-works {
+  .s-projects {
     padding-top: 16rem;
   }
 
