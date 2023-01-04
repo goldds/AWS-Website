@@ -1138,10 +1138,10 @@ input::-moz-focus-inner {
   top: -3.6rem;
   display: block;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #000000;
   font-size: 1.1rem;
   line-height: 1;
-  background: #000000;
+  background: #ffffff;
   padding: .8rem .8rem;
   border-radius: 3px;
 }
@@ -2345,7 +2345,7 @@ input::-moz-focus-inner {
     padding-right: 30px;
   }
 
-  .about-experience__timeline .column::last-child {
+  .about-experience__timeline .column:last-child {
     padding-left: 30px;
   }
 
@@ -2510,7 +2510,7 @@ input::-moz-focus-inner {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/skills-bg.jpg);
+  background-image: url(/images/skills-bg.jpg);
   color: rgba(255, 255, 255, 0.7);
   position: relative;
 }
